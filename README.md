@@ -5,20 +5,20 @@ Estrutura dos Dados
 
 O arquivo CSV contém as seguintes colunas:
 
-    Carimbo de data/hora: Timestamp de quando a resposta foi registrada.
-    Qual é a sua idade?: Faixa etária do respondente.
-    Qual seu gênero?: Gênero do respondente.
-    Qual é o seu nível educacional?: Nível educacional do respondente.
-    Qual é a sua ocupação?: Ocupação do respondente.
-    Com que frequência você pratica atividades físicas?: Frequência de prática de atividades físicas.
-    Qual é a duração média das suas sessões de exercício?: Duração média das sessões de exercício.
-    Que tipo de exercício físico você mais pratica? (marque todas as opções aplicáveis): Tipo de exercício físico praticado.
-    Com que frequência você lê livros?: Frequência de leitura de livros.
-    Você já tentou combinar a leitura com a atividade física, como ouvir audiolivros enquanto se exercita?: Se já tentou combinar leitura e exercício físico.
-    Como você avalia a sua concentração durante a leitura após uma sessão de exercício físico?: Avaliação da concentração durante a leitura após exercício físico.
-    Você acredita que o exercício físico regular impacta positivamente sua capacidade de aprendizagem e memória?: Percepção sobre o impacto do exercício na aprendizagem e memória.
+1. Carimbo de data/hora: Timestamp de quando a resposta foi registrada.
+2. Qual é a sua idade?: Faixa etária do respondente.
+3. Qual seu gênero?: Gênero do respondente.
+4. Qual é o seu nível educacional?: Nível educacional do respondente.
+5. Qual é a sua ocupação?: Ocupação do respondente.
+6. Com que frequência você pratica atividades físicas?: Frequência de prática de atividades físicas.
+7. Qual é a duração média das suas sessões de exercício?: Duração média das sessões de exercício.
+8. Que tipo de exercício físico você mais pratica? (marque todas as opções aplicáveis): Tipo de exercício físico praticado.
+9. Com que frequência você lê livros?: Frequência de leitura de livros.
+10. Você já tentou combinar a leitura com a atividade física, como ouvir audiolivros enquanto se exercita?: Se já tentou combinar leitura e exercício físico.
+11. Como você avalia a sua concentração durante a leitura após uma sessão de exercício físico?: Avaliação da concentração durante a leitura após exercício físico.
+12. Você acredita que o exercício físico regular impacta positivamente sua capacidade de aprendizagem e memória?: Percepção sobre o impacto do exercício na aprendizagem e memória.
 
-    Requisitos
+## Requisitos
 
     Python 3.x
     pandas
@@ -26,11 +26,11 @@ O arquivo CSV contém as seguintes colunas:
     seaborn
 
 Você pode instalar as bibliotecas necessárias usando pip:
-
+'''
 bash
 
 pip install pandas matplotlib seaborn
-
+'''
 Como Utilizar
 
     Coloque o arquivo CSV no mesmo diretório do script Python.
