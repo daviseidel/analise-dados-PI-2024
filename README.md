@@ -45,9 +45,10 @@ O código realiza as seguintes tarefas:
 import pandas as pd
 ```
 ### Carrega os dados do arquivo CSV
-file_path = 'Exercício Físico e a Leitura (respostas) - Respostas ao formulário 1.csv'
+```python
+file_path = 'data.csv'
 data = pd.read_csv(file_path)
-
+```
 ### Visualização Inicial dos Dados:
 ``` python
 data.head()
