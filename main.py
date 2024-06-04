@@ -18,21 +18,21 @@ sns.set(style="whitegrid")
 
 # Gráfico de barras para a idade x gênero
 plt.figure(figsize=(10, 6))
-sns.countplot(data=data, x='Qual é a sua idade?', hue='Qual seu gênero?')
+sns.displot(data=data, x='Qual é a sua idade?', hue='Qual seu gênero?', kde="true")
 plt.title('Distribuição de Idade e Gênero')
 plt.xlabel('Idade')
 plt.ylabel('Contagem')
-plt.legend(title='Gênero')
+# plt.legend(title='Gênero')
 plt.show()
 
 # Gráfico de barras para a frequência de exercício físico
 plt.figure(figsize=(10, 6))
-sns.countplot(data=data, x='Com que frequência você pratica atividades físicas?')
+sns.displot(data=data, x='Com que frequência você pratica atividades físicas?', kde="true")
 plt.title('Frequência de Atividade Física')
 plt.xlabel('Frequência')
 plt.ylabel('Contagem')
 plt.show()
-
+"""
 # Gráfico de barras para a duração das sessões de exercício
 plt.figure(figsize=(10, 6))
 sns.countplot(data=data, x='Qual é a duração média das suas sessões de exercício?')
@@ -84,3 +84,4 @@ plt.title('Impacto do Exercício na Aprendizagem e Memória')
 plt.xlabel('Percepção')
 plt.ylabel('Contagem')
 plt.show()
+"""
