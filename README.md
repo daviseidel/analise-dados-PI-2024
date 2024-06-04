@@ -1,7 +1,7 @@
 # Análise de Dados: Exercício Físico e Leitura
-Este repositório contém um código Python para a análise de um conjunto de dados sobre hábitos de exercício físico e leitura. O código utiliza as bibliotecas pandas, matplotlib e seaborn para realizar a análise estatística e gerar gráficos que visualizam os dados coletados por meio de um formulário para uma pesquisa científica. Ele pode ser encontrada em https://docs.google.com/document/d/1wiS7IwYWzV7v0tJ72qkyToGMMmEh-dC5Ocpen5eUCOc/edit?usp=sharing
+Este repositório contém um código Python para a análise de um conjunto de dados sobre hábitos de exercício físico e leitura. O código utiliza as bibliotecas pandas, matplotlib e seaborn para realizar a análise estatística e gerar gráficos que visualizam os dados coletados por meio de um formulário para uma pesquisa científica. Ele pode ser encontrada [aqui](https://docs.google.com/document/d/1wiS7IwYWzV7v0tJ72qkyToGMMmEh-dC5Ocpen5eUCOc/edit?usp=sharing)
 
-Estrutura dos Dados
+## Estrutura dos Dados
 
 O arquivo CSV contém as seguintes colunas:
 
@@ -26,42 +26,39 @@ O arquivo CSV contém as seguintes colunas:
     seaborn
 
 Você pode instalar as bibliotecas necessárias usando pip:
-'''
-bash
+```bash
 
 pip install pandas matplotlib seaborn
-'''
-Como Utilizar
+```
+## Como Utilizar
 
-    Coloque o arquivo CSV no mesmo diretório do script Python.
-    Execute o script script_de_análise.py.
+Coloque o arquivo CSV no mesmo diretório do script Python.
+Execute o script main.py.
 
-Descrição do Código
+## Descrição do Código
 
 O código realiza as seguintes tarefas:
 
-    Carregamento dos Dados:
+### Carregamento dos Dados:
 
-    python
-
+```python
 import pandas as pd
-
-# Carrega os dados do arquivo CSV
-file_path = 'Exercício Físico e a Leitura (respostas) - Respostas ao formulário 1.csv'
+```
+### Carrega os dados do arquivo CSV
+```python
+file_path = 'data.csv'
 data = pd.read_csv(file_path)
-
-Visualização Inicial dos Dados:
-
-python
-
+```
+### Visualização Inicial dos Dados:
+``` python
 data.head()
+```
+### Análise e Visualização Estatística:
 
-Análise e Visualização Estatística:
+Geração de gráficos para distribuição de idade e gênero, nível educacional e ocupação, frequência e duração de exercícios, tipo de exercício físico praticado, frequência de leitura, combinação de leitura com atividade física, concentração após exercício físico e impacto do exercício na aprendizagem e memória.
+Utiliza seaborn e matplotlib para criar gráficos de barras.
 
-    Geração de gráficos para distribuição de idade e gênero, nível educacional e ocupação, frequência e duração de exercícios, tipo de exercício físico praticado, frequência de leitura, combinação de leitura com atividade física, concentração após exercício físico e impacto do exercício na aprendizagem e memória.
-    Utiliza seaborn e matplotlib para criar gráficos de barras.
+## Como Utilizar
 
-Como Utilizar
-
-    Coloque o arquivo CSV no mesmo diretório do script Python.
-    Execute o script script_de_análise.py.
+Coloque o arquivo CSV no mesmo diretório do script Python.
+Execute o script main.py.
